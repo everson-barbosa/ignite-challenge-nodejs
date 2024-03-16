@@ -1,0 +1,48 @@
+###
+
+GET http://localhost:3333/tasks HTTP/1.1
+
+### 
+
+GET http://localhost:3333/tasks?title=CRUD HTTP/1.1
+
+### 
+
+GET http://localhost:3333/tasks?description=ABCD HTTP/1.1
+
+### 
+
+POST http://localhost:3333/task HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Criar um CRUD de tarefas",
+    "description": "O CRUD consiste em (Create, Read, Update e Delete), gosto de chamar de ABCD (Alterar, Buscar, Criar e Deletar), mais brasileiro e fácil de lembrar, não acha?"
+}
+
+###
+
+PUT http://localhost:3333/task/:id HTTP/1.1
+content-type: application/json
+
+{
+    "title": "New title",
+}
+
+###
+
+PUT http://localhost:3333/task/:id HTTP/1.1
+content-type: application/json
+
+{
+    "description": "New description",
+}
+
+###
+
+PUT http://localhost:3333/task/:id/complete HTTP/1.1
+content-type: application/json
+
+###
+
+DELETE http://localhost:3333/task/id
