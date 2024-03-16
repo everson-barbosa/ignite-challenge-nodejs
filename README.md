@@ -24,8 +24,8 @@ Este é um projeto de CRUD (Create, Read, Update, Delete) de tarefas, onde você
 
 3. Instale as dependências do projeto:
 
-npm: `npm install` ou `npm`
-yarn: `yarn install` ou `yarn`
+- npm: `npm install` ou `npm`
+- yarn: `yarn install` ou `yarn`
 
 ## Uso
 
@@ -35,9 +35,9 @@ yarn: `yarn install` ou `yarn`
 
 ## Rotas
 
-- GET    - /tasks                query { title, description }
-- POST   - /tasks                body  { title, description }
-- POST   - /tasks/import         file-example.csv
-- PUT    - /tasks/:id            body  { title, description }
-- PATCH  - /tasks/:id/complete   
-- DELETE - /tasks/:id 
+- GET    - `/tasks`                
+- POST   - `/tasks`                
+- POST   - `/tasks/import`         
+- PUT    - `/tasks/:id`            
+- PATCH  - `/tasks/:id/complete`   
+- DELETE - `/tasks/:id` 
