@@ -14,10 +14,10 @@ export const tasksRoutes = [
 
       const tasks = database.select(
         "tasks",
-        {
+        title || description ? {
             title,
             description
-        }  
+        }  : null
       );
 
       return response.end(JSON.stringify(tasks));
