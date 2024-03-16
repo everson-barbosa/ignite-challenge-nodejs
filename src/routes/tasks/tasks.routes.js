@@ -17,7 +17,7 @@ export const tasksRoutes = [
         title || description ? {
             title,
             description
-        }  : null
+        } : null
       );
 
       return response.end(JSON.stringify(tasks));
