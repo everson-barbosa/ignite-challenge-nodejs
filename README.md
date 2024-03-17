@@ -1,4 +1,4 @@
-# Ignite Challenge Node.js
+# Ignite Challenge Tasks Manager
 
 Este é um projeto de CRUD (Create, Read, Update, Delete) de tarefas, onde você pode gerenciar suas tarefas de forma simples e eficiente. Ele também oferece suporte para importação de tarefas através de arquivos CSV.
 
@@ -16,11 +16,11 @@ Este é um projeto de CRUD (Create, Read, Update, Delete) de tarefas, onde você
 
 1. Clone este repositório:
 
-`git clone https://github.com/everson-barbosa/ignite-challenge-nodejs.git`
+`git clone https://github.com/everson-barbosa/ignite-challenge-tasks-manager.git`
 
 2. Navegue até o diretório do projeto:
 
-`cd ignite-challenge-nodejs`
+`cd ignite-challenge-tasks-manager`
 
 3. Instale as dependências do projeto:
 
